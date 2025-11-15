@@ -6,6 +6,10 @@
 		"skipLibCheck": true,
 		"useDefineForClassFields": true,
 
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
+		"strictNullChecks": true,
+
 		/* modules */
 		"module": "ESNext",
 		"isolatedModules": true,
@@ -17,7 +21,11 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 
-		"rootDir": ".",
-		"composite": true
-	}
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["src/*"]
+		}
+	},
+
+	"include": ["src"]
 }

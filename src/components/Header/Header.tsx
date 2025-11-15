@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 
-import { DarkModeToggle } from "@/shared/ui/DarkModeToggle/DarkModeToggle";
-import { HomeButton } from "./HomeButton/HomeButton";
+import { DarkModeToggle } from "~/ui/DarkModeToggle/DarkModeToggle";
+import { HomeButton } from "./HomeButton";
 
 export const Header = () => {
 	return (
