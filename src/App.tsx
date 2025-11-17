@@ -1,5 +1,5 @@
-import '@mantine/core/styles.css';
-import './App.css';
+import "@mantine/core/styles.css";
+import "./App.css";
 
 import {
   Button,
@@ -7,9 +7,9 @@ import {
   MantineProvider,
   Stack,
   Title,
-} from '@mantine/core';
-import { useState } from 'react';
-import { Header } from './components/Header/Header';
+} from "@mantine/core";
+import { useState } from "react";
+import { Header } from "./components/Header/Header";
 
 const theme = createTheme({
   /** Put your mantine theme override here */
